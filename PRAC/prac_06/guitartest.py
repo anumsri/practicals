@@ -10,6 +10,7 @@ def run_tests():
     cost = 16035.40
 
     guitar = Guitar(name, year, cost)
+
     other = Guitar("Another Guitar", 2012, 1512.9)
 
     print("{} get_age() - Expected {}. Got {}".format(guitar.name, 95,
